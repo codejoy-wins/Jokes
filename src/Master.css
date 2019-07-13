@@ -1,0 +1,8 @@
+.question{
+    color: blue;
+}
+.answer{
+    padding: 2vw;
+    color: whitesmoke;
+    background: linear-gradient(green,rgb(89, 0, 255));
+}
