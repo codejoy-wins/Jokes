@@ -4,9 +4,10 @@ import jokesData from './components/jokesData';
 import './Master.css'
 
 function Master(){
-    // jokecomponents
+        const jokeComponents = jokesData.map(joke => <Joke question={joke.question} answer={joke.answer}/>)
     return(
         <div>
+            {jokeComponents}
             <Joke question="How are you?" answer="Good!"/>
             <Joke question="How am I?" answer="Badass!"/>
             <Joke answer="Good!"/>
